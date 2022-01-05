@@ -69,8 +69,14 @@ h1{
     text-decoration: none;
     background-color: orangered;
     color: white;
+    font-size: 20px;
     border-radius: 10px;
     padding: 15px 35px;
+}
+.btn a:hover{
+    background-color: goldenrod;
+    color: black;
+    cursor: pointer;
 }
 
 
@@ -119,4 +125,35 @@ h1{
     padding: 2%;
     background-color: rgba(240, 128, 128, 0.503);
   
+}
+
+/* ************************************ */
+
+
+.description{
+    display: flex;
+    width: 80%;
+    padding: 2% 10%;
+}
+
+.des-image{
+    padding-right: 10%;
+}
+
+.description h1{
+    padding-top: 10%;
+    font-size: 60px;
+}
+.description p{
+    font-size: 20px;
+}
+
+/* ********************************** */
+
+.lower-des{
+    padding-top: 3%;
+}
+
+#image-padding img{
+    padding-left: 13%;
 }
