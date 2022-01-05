@@ -7,6 +7,10 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+span{
+    color: orange;
+}
+
 
 h1{
     font-family: cursive;
@@ -156,4 +160,14 @@ h1{
 
 #image-padding img{
     padding-left: 13%;
+}
+
+.center-text{
+    text-align: center;
+    color: white;
+    background-color: rgb(91, 81, 81);
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    height: 100px;
 }
