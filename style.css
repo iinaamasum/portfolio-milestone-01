@@ -11,26 +11,24 @@ span{
     color: orange;
 }
 
-
 h1{
-    font-family: cursive;
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
 }
 
 .upper-heading h1{
-    font-size: 60px;
     padding: 0%;
     margin: 0%;
 }
 
+
 .heading{
-    border-left: 5px solid orangered;
+    border-left: 4px solid orangered;
     border-radius: 4px;
-    height: 80px;
-    padding-bottom: 110px;
-    /* margin-bottom: 100px; */
-    /* position: absolute;
-    left: 50%;
-    margin-left: -3px; */
+    height: 70px;
+    padding-bottom: 80px;
 }
 
 .upper-section{
@@ -50,7 +48,6 @@ h1{
 
 .upper-text{
     padding-top: 0;
-    /* text-align: justify; */
     padding-right: 15%;
     font-size: 20px;
 }
@@ -146,11 +143,8 @@ h1{
 
 .description h1{
     padding-top: 10%;
-    font-size: 60px;
 }
-.description p{
-    font-size: 20px;
-}
+
 
 /* ********************************** */
 
@@ -162,12 +156,74 @@ h1{
     padding-left: 13%;
 }
 
+
+/* ************************************* */
 .center-text{
     text-align: center;
     color: white;
     background-color: rgb(91, 81, 81);
     position: relative;
-    padding-top: 1%;
-    padding-bottom: 3%;
-    height: 100px;
+    margin-top: 3%;
+    padding-bottom: 1%;
+    height: 140px;
+}
+
+
+/* ********************************************* */
+
+.gather-info{
+    border-left: 4px solid orangered;
+    border-radius: 4px;
+    position: relative;
+}
+
+.contact-area{
+    display: flex;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contact-area-left{
+    width: 60%;
+}
+
+.name-email{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.left-input{
+    border-radius: 5px;
+    padding: 7px 25px;
+    background-color: rgba(128, 128, 128, 0.211);
+    border: 9px;
+}
+
+.email{
+    padding-left: 70px;
+}
+
+.sector{
+    display: flex;
+}
+.check{
+    display: flex;
+}
+.check input{
+     margin-top: 25px;
+}
+.check p{
+    font-size: 16px;
+    padding: 5px 20px;
+    background-color: rgba(240, 128, 128, 0.217);
+    border-radius: 10px;
+}
+
+.checkbox-padding{
+    margin-left: 30px;
+}
+
+.contact-padding{
+    padding-left: 10px;
 }
